@@ -1,0 +1,135 @@
+/* header */
+
+.creTit{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin:auto;
+    width: .4rem;
+    height: .44rem;
+}
+.creTit h1{
+    font-size: .19rem;
+    height: .44rem;
+    line-height: .44rem;
+    color:white;
+}
+
+/* main----------------- */
+.mainBg{
+    width:100%;
+    /* height: .96rem; */
+    /* background: #53b3ed; */
+    background: #0eb6f2;
+}
+.product{
+    width: 100%;
+    height: .96rem;
+    display: -webkit-flex;
+}
+.product a{
+    flex: 1;
+    height: 100%;
+}
+.product a img{
+    width: .35rem;
+    height: .35rem;
+    margin:.08rem auto;
+}
+.product a h3{
+    font-size: .12rem;
+    color: white;
+    height: .32rem;
+    line-height: .32rem;
+    text-align: center;
+}
+.proList{
+    height: .97rem;
+    background: white;
+    width: 100%;
+    display: -webkit-flex;
+}
+.proList a{
+    width: 25%;
+    height: 100%;
+}
+.proList a img{
+    width: .25rem;
+    height: .25rem;
+    margin:.18rem auto .1rem;
+}
+.proList a h3{
+    color: #656565;
+    font-size: .12rem;
+    height: .32rem;
+    line-height: .32rem;
+    text-align: center;
+}
+
+    .swiper-container {
+      width: 100%;
+      height: .97rem;
+      margin-left: auto;
+      margin-right: auto;
+      background: white;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+/* recommend----------------------------------------- */
+.recommend {
+    margin-top: .1rem;
+}
+.recommend .subTit{
+    background: white;
+}
+.recSubList{
+    margin-bottom: .1rem;
+    background: white;
+}
+.recSubList img{
+    width: 100%;
+    height: 1.05rem;
+    display: block;
+}
+.subTxt{
+    text-align: center;
+    padding:.15rem 0;
+}
+.subTxt h4{
+    font-size: .14rem;
+    height: .14rem;
+    line-height: .14rem;
+    color: #323033;
+}
+.subTxt p{
+    font-size: .13rem;
+    height: .16rem;
+    line-height: .16rem;
+    color: #656364;
+    margin-top: .08rem;
+}
+.weixiaobao img{
+    display: block;
+    width: 100%;
+    height: 1.42rem;
+}

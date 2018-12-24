@@ -1,0 +1,235 @@
+/* header */
+
+.creTit{
+    position: absolute;
+    left: 1.1rem;
+    top:0;
+    width: 1.4rem;
+    height: .44rem;
+}
+.creTit h1{
+    font-size: .19rem;
+    height: .44rem;
+    line-height: .44rem;
+    color:white;
+    float: left;
+}
+.creTit p {
+    float: left;
+    height: .44rem;
+    margin-left: .05rem;
+}
+.creTit p span{
+    font-size: .14rem;
+    color:white;
+    height: .44rem;
+    line-height: .44rem;
+    float: left;
+}
+.creTit p img{
+    float: left;
+    width: .12rem;
+    height: .06rem;
+    margin-left: .07rem;
+    margin-top: .21rem;
+}
+/* main---------------------------------- */
+.mainBg{
+    width: 100%;
+    height: 2.38rem;
+    background: url(../imgs/xyk/mainBg1.png) no-repeat top center;
+    background-size: cover;
+    position: relative;
+}
+.creTxt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2.38rem;
+    width: 100%;
+}
+.creTxt img{
+    width: 1.11rem;
+    height: 1.11rem;
+    margin:.37rem auto;
+}
+.creTxt p{
+    font-size: .14rem;
+    height: .26rem;
+    line-height: .26rem;
+    color: white;
+    text-align: center;
+}
+/* product--------------------- */
+.product{
+    margin-bottom: .1rem;
+}
+.proList{
+    height: .745rem;
+    background: white;
+    border-bottom: 1px solid #dddddd;
+    display: -webkit-flex;
+}
+.proList a{
+    display: block;
+    flex:1;
+    height: 100%;
+}
+.proList a img{
+    width: .31rem;
+    height: .3rem;
+    margin:.12rem auto;
+}
+.proList h3{
+    font-size: .12rem;
+    height: .12rem;
+    line-height: .12rem;
+    color: #626262;
+    text-align: center;
+}
+
+.swiper-container {
+      width: 100%;
+      height: 1.3rem;
+      position: relative;
+    }
+.swiper-slide img{
+    width: 100%;
+    height: 1.3rem;
+}
+.swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+/* cardManage------------------------------ */
+.cardManage{
+    background: white;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+}
+.cardManage .proList{
+    height: .755rem;
+}
+/* cardRecommend----------------------------- */
+.cardRecommend{
+    background: white;
+    margin-bottom: .1rem;
+}
+.cardRecommend .subTit{
+    border-bottom: 0;
+}
+.cardList{
+    width: 100%;
+    display: -webkit-flex;
+}
+.subCardList{
+    width: 50%;
+    border:1px solid #dddddd;
+    height: .843rem;
+    box-sizing: border-box;
+    display: -webkit-flex;
+}
+.bgOther{
+    background: #f8f8f8;
+}
+.imgBox{
+    width: .8rem;
+}
+.imgBox img{
+    width: .6rem;
+    height: .38rem;
+    margin:.23rem auto;
+}
+.cardTxt h2{
+    font-size: .1rem;
+    color:#903544;
+    height:.28rem;
+    line-height: .28rem;
+    margin-top: .12rem;
+}
+
+.cardTxt p{
+    /* font-size: .09rem; */
+    font-size: 12px;
+    color:#676767;
+    /* height: .16rem; */
+    line-height: .16rem;
+}
+/* hotActive---------------------------------- */
+.hotActive{
+    background: white;
+    margin-bottom: .1rem;
+}
+.activeList{
+    display: -webkit-flex;
+    height: .86rem;
+}
+.subActiveList{
+    width: 50%;
+    /* display: -webkit-box; */
+}
+.subActiveList .imgBox{
+    width: .85rem;
+    float: left;
+}
+.subActiveList .imgBox img{
+    width: .66rem;
+    height: .65rem;
+    margin:.12rem auto;
+}
+.activeTxt{
+    float: left;
+    width: .85rem;
+}
+.activeTxt h2{
+    font-size: .1rem;
+    color: #656565;
+    height: .15rem;
+    line-height: .15rem;
+    margin-top: .15rem;
+}
+.activeTxt p{
+    font-size: .1rem;
+    color: #cb4568;
+    line-height: .15rem;
+}
+
+/* specShop------------------------------------------ */
+.specShop{
+    background:white;
+    margin-bottom: .1rem;
+}
+.le{
+    margin-bottom: 0;
+}
+.shopList{
+    height: 1.24rem;
+    border-bottom: 1px solid #dddddd;
+    display: -webkit-flex;
+}
+.subShopList{
+    width: 50%;
+}
+.subShopList img{
+    width: 1.42rem;
+    height: .8rem;
+    margin:.12rem auto;
+}
+.subShopList p{
+    font-size: .12rem;
+    color:#323232;
+    text-align: center;
+}

@@ -1,0 +1,244 @@
+/* header */
+
+.creTit{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin:auto;
+    width: .8rem;
+    height: .44rem;
+}
+.creTit h1{
+    font-size: .19rem;
+    height: .44rem;
+    line-height: .44rem;
+    color:white;
+}
+/* main---------------------------------- */
+.mainBg{
+    width: 100%;
+    height: 2.38rem;
+    background: url(../imgs/xyk/mainBg1.png) no-repeat top center;
+    background-size: cover;
+    position: relative;
+}
+.investPro{
+    width: 100%;
+    position: absolute;
+    top:.21rem;
+}
+.majorfunc{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+}
+.majorfunc a{
+    flex: 1;
+    height: 100%;
+}
+.majorfunc a img{
+    width: .34rem;
+    height: .34rem;
+    margin:.14rem auto;
+}
+.majorfunc a h3{
+    font-size: .12rem;
+    color: white;
+    text-align: center;
+    height: .18rem;
+    line-height: .18rem;
+    margin-bottom: .05rem;
+}
+
+/* dingTou------------------------------------- */
+.dingTou{
+    width: 100%;
+    height: .75rem;
+    background: white;
+    display: -webkit-flex;
+    margin-bottom: .1rem;
+}
+.subDing{
+    width: 50%;
+    /* display: -webkit-flex; */
+}
+.dingTou .subDing:nth-child(1){
+    border-right:1px solid #ededed;
+}
+.dingTou .subDing:nth-child(2){
+    border-left:1px solid #ededed;
+}
+.dingTxt{
+    width: .85rem;
+    padding-left: .2rem;
+    float: left;
+}
+
+.dingTxt h1{
+    font-size: .16rem;
+    font-weight: 800;
+    color:#6694b8;
+    height:.16rem;
+    margin-top: .2rem;
+}
+.leis h1{
+    font-weight: 100;
+    font-size: .13rem;
+}
+.dingTxt p{
+    font-size: .06rem;
+    color:#585858;
+    margin-top: .06rem;
+}
+.leis p{
+    font-size: .05rem;
+    color: #6694b8;
+    
+}
+.subDing img{
+    width: .65rem;
+    height: .61rem;
+    margin-top: .07rem;
+    float: left;
+}
+
+.swiper-container{
+      width: 100%;
+      height: 1.3rem;
+      position: relative;
+    }
+.swiper-slide img{
+    width: 100%;
+    height: 1.3rem;
+}
+.swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+/* recent---------------------------------------- */
+.recent{
+    background: white;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+}
+.recentList{
+    /* height: .955rem; */
+    border-bottom: 1px solid #c7c7c9;
+    padding-left: .24rem;
+    overflow: hidden;
+}
+.recentLeft{
+    width: 1.26rem;
+    float: left;
+    /* height: 100%; */
+    padding-top: .075rem;
+}
+.recentLeft h2{
+    font-size: .23rem;
+    color:#c94263;
+    height: .58rem;
+    line-height: .58rem;
+    /* margin-top: .07rem; */
+}
+.recentLeft p{
+    font-size: .11rem;
+    height: .11rem;
+    line-height: .11rem;
+    color:#999999;
+}
+.recentMid{
+    width: 1.64rem;
+    float: left;
+    padding:.07rem 0;
+}
+.recentMid p{
+    font-size: .12rem;
+    line-height: .16rem;
+    padding:.06rem 0;
+}
+.recentMid p:nth-child(1){
+    color: #666666;
+}
+.recentMid p:nth-child(2){
+    color: #cd4c73;
+}
+.recentMid p:nth-child(3){
+    color: #9c9c9c;
+}
+.recntRight{
+    width: .57rem;
+    /* height: 100%; */
+    float: left;
+    position: relative;
+}
+.arrow{
+    width: .08rem;
+    height: .13rem;
+    position: absolute;
+    top:.43rem;
+    right: .15rem;
+    background: url(../imgs/tzlc/more6.png) no-repeat top left;
+    background-size: cover;
+}
+.recntRight span{
+    display: block;
+    position: absolute;
+    top:0;
+    right: .225rem;
+    width: .25rem;
+    height: .25rem;
+    background: #ce4265;
+    font-size: .12rem;
+    color: white;
+    text-align: center;
+    line-height: .25rem;
+    border-bottom-left-radius: .05rem;
+    border-bottom-right-radius: .05rem;
+}
+.recntRight .spec{
+    background: #6657ac;
+}
+
+/* message------------------------------------------------- */
+.message{
+    background: white;
+}
+.msgList{
+    padding:.15rem .225rem;
+    border-bottom: 2px solid #e9e9eb;
+    overflow: hidden;
+}
+.msgList p{
+    font-size: .13rem;
+    line-height: .16rem;
+    color: #313131;
+    width: 2.37rem;
+    float: left;
+}
+.msgList span{
+    width: .69rem;
+    float: right;
+    height: .32rem;
+    line-height: .32rem;
+    color:#656565;
+    font-size: .1rem;
+}
+.msgList .huan{
+    height: .32rem;
+    line-height: .32rem;
+}

@@ -1,0 +1,257 @@
+/* header */
+.search{
+    display: block;
+    width: 2.17rem;
+    height: .32rem;
+    background: #5fbeee;
+    /* background: white; */
+    /* opacity: .1; */
+    border-radius: .16rem;
+    font-size: .12rem;
+    line-height: .32rem;
+    color: #92e1ff;
+    /* color: white; */
+    text-indent: .35rem;
+    position: absolute;
+    left: .59rem;
+    top: 0;
+    bottom: 0;
+    margin:auto 0;
+}
+.search img{
+    position: absolute;
+    left: .15rem;
+    top:0;
+    bottom: 0;
+    margin:auto 0;
+    display: block;
+    width: .14rem;
+    height: .14rem;
+}
+
+/* main----------------- */
+.mainBg{
+    width:100%;
+    height: .96rem;
+    /* background: #53b3ed; */
+    background: #0eb6f2;
+}
+.product{
+    width: 100%;
+    height: .96rem;
+    display: -webkit-flex;
+}
+.product a{
+    flex:1;
+    height: 100%;
+}
+.product a img{
+    width: .35rem;
+    height: .35rem;
+    margin:.08rem auto;
+}
+.product a h3{
+    font-size: .12rem;
+    color: white;
+    height: .32rem;
+    line-height: .32rem;
+    text-align: center;
+}
+
+.mainTit{
+    /* height: .48rem; */
+    padding:.05rem .22rem;
+    background: white;
+}
+.mainTitTxt{
+    overflow: hidden;
+}
+.mainTitTxt img{
+    width: .19rem;
+    height: .25rem;
+    float: left;
+    margin-top: .05rem;
+}
+.mainTitTxt span{
+    float: left;
+    font-size: .13rem;
+    color: #51b5f0;
+    margin-left: .08rem;
+    height: .34rem;
+    line-height: .34rem;
+}
+.titLine{
+    width: 100%;
+    height: .045rem;
+    background: #0eb6f2;
+    border-top-left-radius: .045rem;
+    border-top-right-radius: .045rem;
+}
+/* product--------------------------------------- */
+.mainproduct{
+    background: white;
+    margin-bottom: .1rem;
+}
+.proList{
+    width: 100%;
+    display: -webkit-flex;
+    height: .855rem;
+}
+.proList a{
+    flex: 1;
+    height: 100%;
+}
+.proList a img{
+    width: .3rem;
+    height: .3rem;
+    margin:.16rem auto .05rem;
+}
+.proList a h3{
+    font-size: .12rem;
+    color: #707070;
+    line-height: .16rem;
+    text-align: center;
+}
+.proLine{
+    width: 3.3rem;
+    height: 1px;
+    background: #e1e1e1;
+    margin:0 auto;
+}
+
+.swiper-container,.swiper-container1  {
+      width: 100%;
+      height: 1.3rem;
+      position: relative;
+    }
+.swiper-slide img{
+    width: 100%;
+    height: 1.3rem;
+}
+.swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+/* charge------------------------------------------- */
+.charge{
+    width: 100%;
+    background: white;
+    margin-bottom: .1rem;
+}
+.chargeBox{
+    width: 100%;
+}
+.chargeCont{
+    width: 3.3rem;
+    margin:0 auto;
+}
+.chargeContPhone{
+    height: .55rem;
+    border-bottom:1px solid #dddddd;
+}
+.chargeContPhone p{
+    font-size: .15rem;
+    color:#696969;
+    float: left;
+    height: 100%;
+    line-height: .55rem;
+}
+.chargeContPhone em{
+    font-size: .2rem;
+    color: #656565;
+    font-style: normal;
+    float: left;
+    height: 100%;
+    line-height: .55rem;
+    margin-left: .63rem;
+}
+.chargeContPhone a{
+    width: .24rem;
+    height: 100%;
+    float: right;
+}
+.chargeContPhone a img{
+    width: .24rem;
+    height: .2rem;
+    margin-top: .19rem;
+}
+.chargeLevel{
+    height: .67rem;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+.chargeLevel a{
+    display: block;
+    width: .51rem;
+    height: .3rem;
+    border:1px solid #54b3ed;
+    line-height: .3rem;
+    color: #54b3ed;
+    text-align: center;
+    font-size: .11rem;
+    border-radius: .05rem;
+    margin-top: .18rem;
+}
+.round{
+    width: 100%;
+    margin-bottom: .1rem;
+    overflow: hidden;
+}
+.roundList{
+    width: 1.69rem;
+    height: .67rem;
+    float: left;
+    padding:.09rem;
+}
+.round1{
+    background: white;
+}
+.round2{
+    background: #f7f7f7;
+}
+.roundList img{
+    width: .77rem;
+    height: .67rem;
+    float: left;
+    /* margin:.09rem; */
+}
+.roundTxt h3{
+    font-size: .13rem;
+    color: #d0446b;
+    height: .25rem;
+    line-height: .25rem;
+    margin-top: .09rem;
+}
+.roundTxt h4{
+    font-size: .12rem;
+    color:#696969;
+    height: .23rem;
+    line-height: .23rem;
+}
+.round2 .roundTxt h3{
+    color: #6b60a5;
+}
+
+.recentCharge{
+    background: white;
+}
+.recChargeList p{
+    font-size: .13rem;
+    color:#aaaaaa;
+    height: .685rem;
+    line-height: .685rem;
+    text-align: center;
+}

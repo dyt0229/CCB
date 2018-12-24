@@ -1,0 +1,22 @@
+{
+  "name": "ccb",
+  "version": "1.0.0",
+  "description": "It's my third project about bank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyt0229/CCB.git"
+  },
+  "author": "Aris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyt0229/CCB/issues"
+  },
+  "homepage": "https://github.com/dyt0229/CCB#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}

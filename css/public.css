@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+/* CSS Document */
+body,
+p,
+ul,
+ol,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+td,
+input,
+select,
+option,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 26.67vw;
+}
+
+body {
+    font-family: "微软雅黑", Arial;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+i {
+    font-style: normal;
+}
+header{
+    width: 100%;
+    height: .44rem;
+    position: relative;
+    z-index: 1;
+    /* background: #53b3ed; */
+    background: #0eb6f2;
+    background-size: cover;
+}
+.systemMenu{
+    display: block;
+    width: .21rem;
+    height: .14rem;
+    background: url(../imgs/index/systemMenu.png) no-repeat top left;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:.18rem;
+    margin:auto 0;
+}
+
+.more{
+    display: block;
+    width: .16rem;
+    height: .16rem;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: .25rem;
+    margin:auto 0;
+    background: url(../imgs/index/more.png) no-repeat top left;
+    background-size: cover;
+}
+.robot{
+    position: absolute;
+    width:.32rem;
+    height: .21rem;
+    top:.09rem;
+    right: .56rem;
+    background: url(../imgs/xyk/jqr.png) no-repeat top left;
+    background-size: cover;
+}
+/* main */
+main{
+    width: 100%;
+    background: #eeeeee;
+    flex:1;
+    position: relative;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+main::-webkit-scrollbar{
+    display: none;
+}
+.subTit{
+    width: 100%;
+    height: .46rem;
+    border-bottom: 1px solid #e8e9eb;
+    overflow: hidden;
+}
+.subTit img{
+    width: .035rem;
+    height: .36rem;
+    float: left;
+    margin-top: .06rem;
+}
+.subTit h2{
+    font-size: .15rem;
+    color:#50b7f1;
+    float: left;
+    height: .46rem;
+    line-height: .46rem;
+    margin-left: .16rem;
+}
+
+.recTxt a{
+    font-size: .12rem;
+    height: .46rem;
+    line-height: .46rem;
+    color:#5fbeee;
+    float: right;
+}
+.recTxt img{
+    width:.06rem;
+    height: .12rem;
+    float: right;
+    margin-top: .18rem;
+    margin-right: .25rem;
+    margin-left: .045rem;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: .49rem;
+    border-top: 1px solid #a5a4a9;
+    display: flex;
+}
+footer a{
+    flex:1;
+    height: 100%;
+    background: #191826;
+}
+footer a img{
+    width: .26rem;
+    height: .22rem;
+    margin:.07rem auto .02rem;
+}
+footer h3{
+    height: .16rem;
+    line-height: .16rem;
+    color: #7e7e8a;
+    font-size: .12rem;
+    text-align: center;
+}
+footer .curr{
+    color: #cdd0d5;
+    background: url(../imgs/index/foline.png) repeat-x left top;
+}
